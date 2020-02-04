@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+.body{
+	background : #e8edff;
+}
+
+.table{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+.column {
+    float: left;
+	width: 33%;
+	vertical-align: top;
+	text-transform: capitalize;
+	font-weight: normal;
+	font-size: 14px;
+	font-family: Open Sans;
+	line-height: 1.6;
+	margin: 0 0 10px;
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.odd{
+    background: #e8edff;
+}
+
+h1{
+  font-family: arial;
+  font-size: 2em;
+  transition: 0.5s all ease;
+  text-transform: uppercase;
+  text-align: center;
+   color: #46c0fb;
+  text-shadow: 1px 1px 2px black, 0 0 25px #808080, 0 0 5px #808080;
+}
+
+h1:hover {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+
+.twitterBtn {
+	margin: 8px 4px;
+    font-size: 13px;
+}
+.twitterBtn.twitter:focus,
+.twitterBtn.twitter {background-color: #46c0fb;}
+
+.twitterBtn,
+a.twitterBtn {
+    border: 1px solid #777;
+    border-color: rgba(0,0,0,0.2);
+    border-bottom-color: #333;
+    border-bottom-color: rgba(0,0,0,0.4);
+    color: #fff;
+    box-shadow: inset 0 0.08em 0 rgba(255,255,255,0.4), inset 0 0 0.1em rgba(255,255,255,0.9);
+    cursor: pointer;
+    display: inline-block;
+    font: bold 100%/2.1 "Lucida Grande", Tahoma, sans-serif;
+    padding: 0 .95em 0 0;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+    white-space: nowrap;
+    user-select: none; 
+    position: relative;
+    border-radius: .3em;
+}
+
+.twitterBtn:before {
+    content: "T";
+    border-right: 0.075em solid rgba(0,0,0,0.1);
+    float: left;
+    font: 120%/1.65 zocial;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0 0.5em 0 0;
+    padding: 0 0.5em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+
+}
+
+.twitterBtn:hover, .twitterBtn:focus {
+    background-image: linear-gradient(rgba(255,255,255,.15) 49%, rgba(0,0,0,.1) 51%, rgba(0,0,0,.15));
+}
